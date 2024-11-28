@@ -1,0 +1,18 @@
+<div class="d-flex" style="min-height: 100vh;">
+  <!-- Sidebar -->
+  <app-sidebar></app-sidebar>
+
+  <!-- Main Content -->
+  <div class="flex-grow-1 d-flex flex-column">
+    <!-- Header -->
+    <app-header></app-header>
+
+    <!-- Content -->
+    <main class="flex-grow-1 p-4">
+      <router-outlet></router-outlet>
+    </main>
+
+    <!-- Footer -->
+    <app-footer></app-footer>
+  </div>
+</div>
